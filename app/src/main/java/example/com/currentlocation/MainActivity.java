@@ -44,6 +44,7 @@ public class MainActivity extends Activity implements LocationListener {
           /* locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
                 2000, 1, this);*/
 
+// here is error because of i can not add permission programatically
         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
                 0, 0, this);
 
