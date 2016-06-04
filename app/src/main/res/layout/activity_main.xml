@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/getLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GetLocation"
+        android:text="get location" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getLocation"
+        android:onClick="Disconnect"
+        android:text="disconnect" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/disconnect"
+        android:onClick="Connect"
+        android:text="connect" />
+
+    <TextView
+        android:id="@+id/locationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Location"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
