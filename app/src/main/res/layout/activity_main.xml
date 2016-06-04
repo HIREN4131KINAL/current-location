@@ -11,18 +11,18 @@
         android:text="get location" />
 
     <Button
-        android:id="@+id/disconnect"
+        android:id="@+id/Address"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/getLocation"
         android:onClick="Disconnect"
-        android:text="disconnect" />
+        android:text="Address" />
 
     <Button
         android:id="@+id/connect"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/disconnect"
+        android:layout_below="@+id/Address"
         android:onClick="Connect"
         android:text="connect" />
 
@@ -35,6 +35,17 @@
         android:layout_marginTop="10dp"
         android:text="Location"
         android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Address"
+        android:textSize="20sp" />
+
 
 
 </RelativeLayout>
